@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image:  url(https://template-kit.rootlayers.com/portohero/wp-content/uploads/sites/33/2021/09/09.png;);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    color: rgb(119, 119, 119);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+
+.buttonUp {
+    color: rgb(255, 255, 255);
+    background-color:#7423FF;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(138, 138, 138);
+    list-style: none;
+    gap: 20px;
+    gap: 80px;
+}
+
+
+.mainText{
+    font-size: 120px;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding:130px;
+    margin: 20px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+
+.buttonbottom {
+    color: rgb(255, 255, 255);
+    background-color: #7423FF;
+    border-radius: 50px 50px;
+    text-align: center;
+    padding:20px 40px 20px 40px;
+    margin:100px;
+    font-size: 25px;
+    justify-content: center;
+    font-family: "Poppins", Sans-serif;
+}
