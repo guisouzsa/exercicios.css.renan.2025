@@ -13,9 +13,9 @@ body{
     background-color: black;
     background-image:  url(https://template-kit.rootlayers.com/portohero/wp-content/uploads/sites/33/2021/09/09.png;);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     font-weight: bold;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.9px;
 }
 
 .cabecalho {
@@ -77,8 +77,8 @@ body{
     font-family: "Poppins", Sans-serif;
     align-items: center;
     position:absolute; 
-    top:65%;
-    left:22%;
+    top:70%;
+    left:19%;
     text-transform: uppercase;
     font-weight: bold;
     animation: none;
@@ -88,25 +88,56 @@ body{
     background-color:#660CFF;
 }
 
+
 #maintext2 {
     display: flex;
-    justify-content: flex-start;
+    margin: 250px;
+    font-weight:normal;
+    text-align: justify;
 
 }
 .tex1{
     color: #777777;
     font-size: 20px;
-    display: block;
+    width: 600px;
+    display: flex;
+    padding: 20px;
 
 }
 
 .tex2{
     color: #ffffff;
     font-size: 20px;
+    width: 600px;
+    padding: 20px;
 }
 
-.img{
-    margin:30px ;
-    padding:30px ;
+#imgman {
+    margin: 90px;
 }
 
+#linha {
+    width: 1%;
+    border-bottom: 1px solid #000000;
+
+}
+
+#maintext3 {
+    margin: 250px;
+    text-align: justify;
+
+}
+
+.text3 {
+    color: #ffffff;
+    width: 600px;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.text4 {
+    color: #ffffff;
+    width: 600px;
+    font-weight:normal;
+    font-size: 10px;
+}
