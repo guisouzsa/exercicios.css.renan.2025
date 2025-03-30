@@ -1,18 +1,17 @@
+/* Reset básico */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-body{
-    background-color:#121212;
+body {
+    background-color: #121212;
     font-family: "Poppins", Sans-serif;
     font-size: small;
+    background-image: url("https://template-kit.rootlayers.com/portohero/wp-content/uploads/sites/33/2021/09/09.png");
     background-repeat: no-repeat;
-    background-image:  url(https://template-kit.rootlayers.com/portohero/wp-content/uploads/sites/33/2021/09/09.png;);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-weight: bold;
     letter-spacing: 0.9px;
 }
@@ -25,135 +24,106 @@ body{
     padding: 40px;
 }
 
-
-
-.buttonUp {
-    color: rgb(255, 255, 255);
-    background-color:#7423FF;
-    border-radius: 30px;
-    padding: 15px 30px;
-    font-weight: bold;
-
-}
-
-.buttonUp:hover{
-    background-color:#660CFF;
-    
-}
 .menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: rgb(138, 138, 138);
     list-style: none;
-    gap: 20px;
-    gap: 80px;
+    gap: 30px;
 }
 
+.menu li a {
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    font-weight: bold;
+}
 
-.mainText{
+.buttonUp {
+    color: rgb(255, 255, 255);
+    background-color: #7423FF;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.buttonUp:hover {
+    background-color: #660CFF;
+}
+
+.mainText {
     font-size: 140px;
-    justify-content:center ;
+    justify-content: center;
     display: flex;
     align-items: center;
     color: white;
-    padding:130px;
+    padding: 130px;
     margin: 20px;
     text-align: left;
     font-weight: bold;
-
 }
-
 
 .buttonbottom {
     color: rgb(255, 255, 255);
     display: flex;
     background-color: #7423FF;
-    border-radius: 50px 50px;
-    padding:20px 40px 20px 40px;
-    margin: 0px 0px 0px 250px;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin: 0 0 0 250px;
     left: 10%;
     font-size: 15px;
     font-family: "Poppins", Sans-serif;
-    align-items: center; 
+    align-items: center;
     text-transform: uppercase;
     font-weight: bold;
-    animation: none;
 }
 
 .buttonbottom:hover {
-    background-color:#660CFF;
+    background-color: #660CFF;
 }
-
 
 #maintext2 {
     display: flex;
     margin-left: 170px;
     margin-top: 350px;
-    font-weight:normal;
+    font-weight: normal;
     text-align: justify;
 }
 
-.tex1{
-    color: #777777;
+.tex1, .tex2 {
     font-size: 20px;
     width: 600px;
-    display: flex;
     padding: 20px;
-    gap: 05px;
     margin-top: 10px;
-
 }
 
-.tex2{
+.tex1 {
+    color: #777777;
+}
+
+.tex2 {
     color: #ffffff;
-    font-size: 20px;
-    width: 600px;
-    padding: 20px;
-    display: flex;
-    gap: 05px;
 }
 
 #imgman {
     box-shadow: -15px 15px 0px 0px #7423FF;
-    margin-top: 10px;
-    height: auto;
-    margin-right: 180px;
     margin: 70px;
+    height: auto;
 }
 
 #linha {
-    align-content: stretch;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
     margin: 90px;
-
 }
 
-.maintext3 {
-    margin-top: 0;
+#maintext3 {
     display: flex;
-    gap: 20px;
-    flex-wrap: nowrap; 
-    justify-content: space-between;
-}
-    
-
-.text3 {
-    color: #ffffff;
-    width: 45%;
-    font-weight: bold;
-    font-size: 100px;
-    
+    gap: 10px;
+    margin: 50px auto;
+    padding: 20px;
 }
 
-.text4 {
-    font-weight: normal;
-    font-size: 20px;
-    color: #ffffff;
-    margin-top: 30px;flex-wrap: wrap;
+.text3, .text4 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
 }
-
-
