@@ -6,11 +6,10 @@
 
 
 body{
-    background-color: black;
+    background-color:#121212;
     font-family: "Poppins", Sans-serif;
     font-size: small;
     background-repeat: no-repeat;
-    background-color: black;
     background-image:  url(https://template-kit.rootlayers.com/portohero/wp-content/uploads/sites/33/2021/09/09.png;);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -72,13 +71,11 @@ body{
     background-color: #7423FF;
     border-radius: 50px 50px;
     padding:20px 40px 20px 40px;
-    margin:100px;
+    margin: 0px 0px 0px 250px;
+    left: 10%;
     font-size: 15px;
     font-family: "Poppins", Sans-serif;
-    align-items: center;
-    position:absolute; 
-    top:70%;
-    left:19%;
+    align-items: center; 
     text-transform: uppercase;
     font-weight: bold;
     animation: none;
@@ -91,17 +88,20 @@ body{
 
 #maintext2 {
     display: flex;
-    margin: 250px;
+    margin-left: 170px;
+    margin-top: 350px;
     font-weight:normal;
     text-align: justify;
-
 }
+
 .tex1{
     color: #777777;
     font-size: 20px;
     width: 600px;
     display: flex;
     padding: 20px;
+    gap: 05px;
+    margin-top: 10px;
 
 }
 
@@ -110,34 +110,50 @@ body{
     font-size: 20px;
     width: 600px;
     padding: 20px;
+    display: flex;
+    gap: 05px;
 }
 
 #imgman {
-    margin: 90px;
+    box-shadow: -15px 15px 0px 0px #7423FF;
+    margin-top: 10px;
+    height: auto;
+    margin-right: 180px;
+    margin: 70px;
 }
 
 #linha {
-    width: 1%;
-    border-bottom: 1px solid #000000;
+    align-content: stretch;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 90px;
 
 }
 
-#maintext3 {
-    margin: 250px;
-    text-align: justify;
-
+.maintext3 {
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
 }
+    
 
 .text3 {
     color: #ffffff;
-    width: 600px;
+    width: 45%;
     font-weight: bold;
     font-size: 100px;
+    
 }
 
 .text4 {
+    font-weight: normal;
+    font-size: 20px;
     color: #ffffff;
-    width: 600px;
-    font-weight:normal;
-    font-size: 10px;
+    margin-top: 30px;flex-wrap: wrap;
 }
+
+
