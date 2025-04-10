@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Guia de Propriedades Flexbox</h1>
+<div class="container">
+
+  <!-- display: flex -->
+  <section class="exemplo-bloco">
+    <h2>display: flex</h2>
+    <p style="text-align: center;">Todos os exemplos abaixo estão com <strong>display: flex</strong> aplicado.</p>
+  </section>
+
+  <!-- flex-direction -->
+  <section class="exemplo-bloco">
+    <h2>flex-direction</h2>
+    <div class="exemplo-titulo">row</div>
+    <div class="exemplo flex-row"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">column</div>
+    <div class="exemplo flex-column"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">row-reverse</div>
+    <div class="exemplo flex-row-reverse"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">column-reverse</div>
+    <div class="exemplo flex-column-reverse"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+  </section>
+
+  <!-- flex-wrap -->
+  <section class="exemplo-bloco">
+    <h2>flex-wrap</h2>
+    <div class="exemplo-titulo">nowrap</div>
+    <div class="exemplo nowrap">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">wrap</div>
+    <div class="exemplo wrap">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">wrap-reverse</div>
+    <div class="exemplo wrap-reverse">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+  </section>
+
+  <!-- flex-flow -->
+  <section class="exemplo-bloco">
+    <h2>flex-flow</h2>
+    <div class="exemplo-titulo">row wrap</div>
+    <div class="exemplo flex-flow-row-wrap">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">column wrap</div>
+    <div class="exemplo flex-flow-column-wrap" style="height: 200px;">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div>
+    </div>
+  </section>
+
+  <!-- justify-content -->
+  <section class="exemplo-bloco">
+    <h2>justify-content</h2>
+    <div class="exemplo-titulo">flex-start</div>
+    <div class="exemplo justify-start"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">center</div>
+    <div class="exemplo justify-center"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">flex-end</div>
+    <div class="exemplo justify-end"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">space-between</div>
+    <div class="exemplo justify-between"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">space-around</div>
+    <div class="exemplo justify-around"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+
+    <div class="exemplo-titulo">space-evenly</div>
+    <div class="exemplo justify-evenly"><div class="item">1</div><div class="item">2</div><div class="item">3</div></div>
+  </section>
+
+  <!-- align-items -->
+  <section class="exemplo-bloco">
+    <h2>align-items</h2>
+    <div class="exemplo-titulo">flex-start</div>
+    <div class="exemplo align-start">
+      <div class="item" style="height: 30px;">1</div>
+      <div class="item" style="height: 60px;">2</div>
+      <div class="item" style="height: 40px;">3</div>
+    </div>
+
+    <div class="exemplo-titulo">center</div>
+    <div class="exemplo align-center">
+      <div class="item" style="height: 30px;">1</div>
+      <div class="item" style="height: 60px;">2</div>
+      <div class="item" style="height: 40px;">3</div>
+    </div>
+
+    <div class="exemplo-titulo">flex-end</div>
+    <div class="exemplo align-end">
+      <div class="item" style="height: 30px;">1</div>
+      <div class="item" style="height: 60px;">2</div>
+      <div class="item" style="height: 40px;">3</div>
+    </div>
+
+    <div class="exemplo-titulo">stretch</div>
+    <div class="exemplo align-stretch">
+      <div class="item auto-height">1</div>
+      <div class="item auto-height">2</div>
+      <div class="item auto-height">3</div>
+    </div>
+  </section>
+
+  <!-- align-content -->
+  <section class="exemplo-bloco">
+    <h2>align-content</h2>
+
+    <div class="exemplo-titulo">flex-start</div>
+    <div class="exemplo multi align-content-start">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">center</div>
+    <div class="exemplo multi align-content-center">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">flex-end</div>
+    <div class="exemplo multi align-content-end">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">stretch</div>
+    <div class="exemplo multi align-content-stretch">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">space-between</div>
+    <div class="exemplo multi align-content-between">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+
+    <div class="exemplo-titulo">space-around</div>
+    <div class="exemplo multi align-content-around">
+      <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+      <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
