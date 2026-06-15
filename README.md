@@ -1,26 +1,24 @@
-# Exercícios CSS para Estudos
+# Exercícios e Atividades de CSS + HTML
 
-Este repositório contém exercícios práticos de CSS desenvolvidos com foco no aprendizado de Flexbox e propriedades de layout em páginas web.
+Este repositório reúne diversas atividades práticas desenvolvidas com HTML e CSS, com foco no aprendizado de desenvolvimento web básico e intermediário.
 
 ## Conteúdo abordado
 
-Os exercícios incluem:
+O repositório inclui:
 
-* Propriedade `display: flex`
-* `flex-direction`
-* `justify-content`
-* `align-items`
-* `align-content`
-* `flex-wrap` e `flex-flow`
-* Estruturação de layouts com Flexbox
+* Exercícios de CSS e layout
+* Estudo de Flexbox e posicionamento
+* Criação de formulários e páginas simples
+* Estruturação de sites com HTML e CSS
+* Projeto de site em andamento (Studio Ghibli)
 
 ## Objetivo
 
-O objetivo deste repositório é praticar e entender o funcionamento do Flexbox e suas principais propriedades, facilitando a criação de layouts responsivos e organizados.
+O objetivo deste repositório é praticar conceitos fundamentais de desenvolvimento web, aprimorando habilidades em HTML e CSS por meio de exercícios e pequenos projetos desenvolvidos em aula.
 
 ## Estrutura
 
-O projeto contém uma página principal (`index.html`) e um arquivo de estilos (`style.css`) com exemplos práticos de cada propriedade estudada.
+O repositório contém diferentes pastas com atividades separadas, incluindo exercícios individuais e um projeto de site em andamento.
 
 ## Tecnologias utilizadas
 
@@ -30,9 +28,10 @@ O projeto contém uma página principal (`index.html`) e um arquivo de estilos (
 
 ## Informações
 
+* Atividades desenvolvidas em aula
 * Professor: Renan
-* Data: 11 de fevereiro de 2025
+* Data: 2025
 
 ## Observação
 
-Atividade realizada em aula para fins de estudo.
+Repositório criado para fins de estudo e prática de desenvolvimento web.
